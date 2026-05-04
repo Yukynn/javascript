@@ -22,12 +22,20 @@
     </footer>
 
     <script>
-        window.alert("Olá mundo");
+       
+       /*           Vai perguntar o nome:             */
+        let nome = window.prompt("Qual é seu nome?");
+        window.alert(`Seja bem vindo(a) ${nome} !!!`);
 
-        window.confirm("Está gostando da linguagem?");
+        /*           Vai perguntar a idade:           */
+        let idade  = window.prompt("Qual é sua idade?");
 
-
-        window.prompt("Qual é seu nome?");
+        /*      Sistema de confirmação de idade        */
+        if (idade >= 18) {
+            window.alert("Você pode acessar o site");
+        } else {
+            window.alert("Você não pode acessar");
+        }
         
     </script>
 </body>

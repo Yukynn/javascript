@@ -22,13 +22,17 @@
     </footer>
 
     <script>
-        window.alert("Olá mundo");
 
-        window.confirm("Está gostando da linguagem?");
+       /*              Vai pedir pro usuario escolher dois números   */
+       let n1 = Number(window.prompt("Escolha um número: "));
+       let n2 = Number(window.prompt("Escolha outro número"));
 
+       //   Vai somar os dois números
+       let soma = n1 + n2;
 
-        window.prompt("Qual é seu nome?");
-        
+       // Vai mostrar o resultado da soma dos números
+       window.alert(`A soma de ${n1} + ${n2} é igual a ${soma} !!!`);
+
     </script>
 </body>
 </html>
